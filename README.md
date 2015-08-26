@@ -2,3 +2,4 @@
 * MVVM的VM层框架vue.js
 * 打包工具 gulp
 * 第一次提交
+* git commit -m '\*\*' 中文乱码修复

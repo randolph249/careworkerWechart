@@ -1,0 +1,1 @@
+"use strict";var moduleA={set:function(e){return"xianqing"===e?!1:!0},get:function(){}},animal=function(){},dog=new animal;exports.setName=function(e){return moduleA.set(e),dog},exports.getName=function(e){return moduleA.get(e)};

@@ -1,0 +1,1 @@
+var Parent=function(n){this.name=n};Parent.prototype.sayName=function(){return this.name};var Child=function(n){Parent.call(this)};Child.prototype.sayName=function(){return"I 'm a child,And my name is:"+this.name};
