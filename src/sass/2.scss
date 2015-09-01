@@ -1,0 +1,21 @@
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+.message_sup{
+    border:#ccc solid 1px;
+    padding:10px;
+}
+.message_sub{
+  @extend .message_sup;
+  border-color:#0f0;
+  display: flex;
+}
+.message_sub2{
+  @extend .message_sub;
+  border-color:#00f;
+  display: table;
+}
