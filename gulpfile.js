@@ -1,3 +1,4 @@
+<< << << < HEAD
 var gulp = require('gulp');
 // var uglify = require('gulp-uglify');
 // var server = require('gulp-server-livereload'); //集团服务
